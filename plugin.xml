@@ -7,8 +7,8 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     <description>Cordova plugin for Firebase Cloud Messaging</description>
     <license>MIT</license>
     <keywords>cordova</keywords>
-    <repo>https://github.com/chemerisuk/cordova-plugin-firebase-messaging</repo>
-    <issue>https://github.com/chemerisuk/cordova-plugin-firebase-messaging/issues</issue>
+    <repo>https://github.com/eradin/cordova-plugin-firebase-messaging</repo>
+    <issue>https://github.com/eradin/cordova-plugin-firebase-messaging/issues</issue>
 
     <js-module src="www/FirebaseMessaging.js" name="FirebaseMessaging">
         <merges target="cordova.plugins.firebase.messaging" />
@@ -45,7 +45,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <header-file src="src/ios/FirebaseMessagingPlugin.h" />
         <source-file src="src/ios/FirebaseMessagingPlugin.m" />
 
-        <framework src="Firebase/Messaging" type="podspec" spec="~> 5.2"/>
+        <framework src="Firebase/Messaging" type="podspec" spec="~> 4.1"/>
     </platform>
 
     <platform name="android">
